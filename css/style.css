@@ -28,6 +28,15 @@
   margin: 0 auto;
 }
 
+.login-btn{
+  background-color: #FFFFFF;
+  color: #FE775A;
+  /* padding: 10px; */
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #FE775A;
+}
+
 .orange-btn{
   background-color: #FE775A;
   color: white;
@@ -52,7 +61,8 @@ header{
 
 /* NAV-BAR*/
 .ico{
-  font-size: 250%;
+  font-size: 120%;
+  list-style: none;
   /* line-height: 100px; */
 }
 
@@ -72,18 +82,21 @@ header{
   width: 50%;
   height: 100%;
   /* background-color: #99510a; */
-  line-height: 100px;
+  /* line-height: 100px; */
 }
 
-.up-navigation .left div h6{
+.up-navigation .left nav ul{
   font-size: 200%;
   text-transform: capitalize;
+  list-style: none;
+  line-height: 100px;
 }
 
 .vertical-slash{}
 
-.up-navigation .right div h6{
+.up-navigation .right nav ul{
   font-size: 200%;
+  list-style: none;
 }
 
 
@@ -92,18 +105,17 @@ header{
   height: 100%;
   /* background-color: #5cf91b; */
   line-height: 100px;
-  /* test below */
-  position: relative;
-  /* /test below */
 }
-.up-navigation .right div{
-  /* test below */
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateX(-50%);
-  /* /test below */
+.up-navigation .right li{
+  margin-left: 30px;
 }
+
+
+.up-navigation .right a{
+  text-decoration: none;
+  padding: 10px;
+}
+
 
 .nav-bar .down-navigation{
   height: 50%;

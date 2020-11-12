@@ -11,6 +11,13 @@
   clear: both;
 }
 
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
 .color{
   background-color: rgb(41, 201, 177);
 }
@@ -24,7 +31,10 @@
 
 /* /GENERAL RULES */
 
-
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
 
 
 /* HEADER */
@@ -34,20 +44,68 @@ header{
 }
 
 /* NAV-BAR*/
+.ico{
+  font-size: 250%;
+  /* line-height: 100px; */
+}
+
+
 .nav-bar{
   height: 200px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .nav-bar .up-navigation{
   height: 50%;
-  background-color: violet;
+  background-color: #F4F9FD;
 }
+
+
+.up-navigation .left{
+  width: 50%;
+  height: 100%;
+  /* background-color: #99510a; */
+  line-height: 100px;
+}
+
+.up-navigation .left div h6{
+  font-size: 200%;
+  text-transform: capitalize;
+}
+
+.vertical-slash{}
+
+.up-navigation .right div h6{
+  font-size: 200%;
+}
+
+
+.up-navigation .right{
+  width: 50%;
+  height: 100%;
+  /* background-color: #5cf91b; */
+  line-height: 100px;
+}
+
 
 .nav-bar .down-navigation{
   height: 50%;
-  background-color: #573db6;
+  background-color: #FFFFFF;
 }
+
+.down-navigation .left{
+  width: 50%;
+  height: 100%;
+  /* background-color: #c0d637; */
+}
+
+.down-navigation .right{
+  width: 50%;
+  height: 100%;
+  /* background-color: #e6ad40; */
+}
+
+
 
 /* /NAV-BAR*/
 

@@ -1,0 +1,87 @@
+/* GENERAL RULES */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.color{
+  background-color: rgb(41, 201, 177);
+}
+
+.container{
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+/* /GENERAL RULES */
+
+
+
+
+/* HEADER */
+header{
+  height: 800px;
+  background-color: red;
+}
+
+/* NAV-BAR*/
+.nav-bar{
+  height: 200px;
+  background-color: pink;
+}
+
+.nav-bar .up-navigation{
+  height: 50%;
+  background-color: violet;
+}
+
+.nav-bar .down-navigation{
+  height: 50%;
+  background-color: #573db6;
+}
+
+/* /NAV-BAR*/
+
+
+
+/* JUMBOTRON */
+.jumbotron{
+  height: 600px;
+  background-color: #cbdf50;
+}
+
+
+
+
+/* /JUMBOTRON */
+
+
+/* /HEADER */
+
+
+
+
+
+/* MAIN */
+main{
+  height: 800px;
+  background-color: #dda529;
+}
+
+
+
+
+
+
+
+
+/* /MAIN */

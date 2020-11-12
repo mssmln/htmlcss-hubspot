@@ -28,6 +28,13 @@
   margin: 0 auto;
 }
 
+.orange-btn{
+  background-color: #FE775A;
+  color: white;
+
+  border-radius: 10px;
+}
+
 
 /* /GENERAL RULES */
 
@@ -85,8 +92,18 @@ header{
   height: 100%;
   /* background-color: #5cf91b; */
   line-height: 100px;
+  /* test below */
+  position: relative;
+  /* /test below */
 }
-
+.up-navigation .right div{
+  /* test below */
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateX(-50%);
+  /* /test below */
+}
 
 .nav-bar .down-navigation{
   height: 50%;

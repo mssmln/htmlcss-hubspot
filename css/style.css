@@ -32,7 +32,7 @@
   background-color: #FFFFFF;
   color: #FE775A;
   /* padding: 10px; */
-  text-decoration: none;
+  /* text-decoration: none; */
   border-radius: 10px;
   border: 2px solid #FE775A;
 }
@@ -56,7 +56,22 @@ body{
 /* HEADER */
 header{
   height: 800px;
-  background-color: red;
+}
+
+header .first{
+  height: 100px;
+  background-color: #F4F9FD;
+
+}
+
+header .second{
+  height: 100px;
+  background-color: #FFFFFF;
+}
+
+header .third{
+  height: 600px;
+  background-color: #FFF2EE;
 }
 
 /* NAV-BAR*/
@@ -75,6 +90,7 @@ header{
 .nav-bar .up-navigation{
   height: 50%;
   background-color: #F4F9FD;
+  border-bottom: 2px solid #32495B;
 }
 
 
@@ -92,7 +108,20 @@ header{
   line-height: 100px;
 }
 
-.vertical-slash{}
+.up-navigation .left li{
+  margin-right: 5px;
+}
+
+.up-navigation .left a{
+  text-decoration: none;
+  color: #32495B;
+}
+
+.up-navigation .left .contact-us{
+  border-left: 2px solid #32495B;
+  padding-left: 25px;
+  margin-left: 20px;
+}
 
 .up-navigation .right nav ul{
   font-size: 200%;
@@ -110,6 +139,10 @@ header{
   margin-left: 30px;
 }
 
+.up-navigation .right li a.search{
+  color: #31B4C9;
+}
+
 
 .up-navigation .right a{
   text-decoration: none;
@@ -117,23 +150,54 @@ header{
 }
 
 
+
+/* DOWN NAVIGATION BAR */
 .nav-bar .down-navigation{
   height: 50%;
   background-color: #FFFFFF;
 }
 
 .down-navigation .left{
-  width: 50%;
+  width: 30%;
   height: 100%;
-  /* background-color: #c0d637; */
+  position: relative;
+}
+
+.down-navigation .left .hubspot-logo{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .down-navigation .right{
-  width: 50%;
+  width: 70%;
   height: 100%;
   /* background-color: #e6ad40; */
 }
 
+.down-navigation .right nav ul{
+  font-size: 200%;
+  text-transform: capitalize;
+  list-style: none;
+  line-height: 100px;
+}
+
+.down-navigation .right li{
+  margin-left: 15px;
+}
+
+.down-navigation .right li a{
+  text-decoration: none;
+  padding: 30px 0 30px 30px;
+  color: #32495B;
+}
+
+.down-navigation .right li i.arrow{
+  margin-left: 20px;
+}
+
+/* /DOWN NAVIGATION BAR */
 
 
 /* /NAV-BAR*/
@@ -143,7 +207,7 @@ header{
 /* JUMBOTRON */
 .jumbotron{
   height: 600px;
-  background-color: #cbdf50;
+  background-image: url('../img/jumbotron.png');
 }
 
 
@@ -164,7 +228,19 @@ main{
   background-color: #dda529;
 }
 
+.azure-stripe{
+  height: 12.5%;
+  width: 100%;
+  border-top: 3px solid #32495B;
+  border-bottom: 3px solid #32495B;
+  background-color: #AFEBE4;
+}
 
+/* .test{
+  height: 100%;
+  width: 100%;
+  background-color: red;
+} */
 
 
 

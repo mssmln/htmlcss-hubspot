@@ -40,8 +40,13 @@
 .orange-btn{
   background-color: #FE775A;
   color: white;
-
   border-radius: 10px;
+  text-decoration: none;
+}
+
+.greater{
+  padding: 20px;
+  font-size: 150%;
 }
 
 
@@ -210,7 +215,22 @@ header .third{
   background-image: url('../img/jumbotron.png');
 }
 
+.headline-cta{
+  width: 40%;
+}
 
+
+.headline-cta h1{
+  font-size: 400%;
+  padding-top: 50px;
+}
+
+.headline-cta p{
+  font-size: 150%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  line-height: 30px;
+}
 
 
 /* /JUMBOTRON */

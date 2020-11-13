@@ -45,7 +45,7 @@
 }
 
 .greater{
-  padding: 20px;
+  padding: 20px 40px;
   font-size: 150%;
 }
 
@@ -230,6 +230,12 @@ header .third{
   margin-top: 30px;
   margin-bottom: 50px;
   line-height: 30px;
+}
+
+.headline-cta h6{
+  margin-top: 55px;
+  font-size: 120%;
+  font-weight: normal;
 }
 
 

@@ -284,11 +284,12 @@ main{
 }
 .powerful{
   background-color: #F4F9FD;
+  text-align: center;
 }
 
 .powerful img{
-  margin: 70px 0 0 600px;
   width: 300px;
+  margin-top: 70px;
 }
 
 .powerful h2{
@@ -342,6 +343,36 @@ main{
 
 .message{
   width: 55%;
+}
+
+.message h3{
+  font-size: 200%;
+  padding-top: 80px;
+  color: #32495B;
+}
+
+.message p{
+  font-size: 130%;
+  margin-top: 50px;
+  line-height: 30px;
+  color: #32495B;
+}
+
+.message h4{
+  font-size: 160%;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #32495B;
+}
+
+.message h4::after{
+  content: '';
+  display: block;
+  float: right;
+  width: 70%;
+  height: 2px;
+  margin-top: 9px;
+  background-color: #32495B;
 }
 /* /FREE HUBSPOT CRM */
 

@@ -309,8 +309,51 @@ main{
 
 /* /POWERFUL ALONE. BETTER TOGETHER */
 
+/* FREE HUBSPOT CRM */
+.second-part-main{
+  background-color: #F4F9FD;
+  height: 500px;
+}
+
+.second-part-main .white-box{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+}
+
+.book-btn{
+  width: 35%;
+}
+
+.book-btn img{
+  width: 200px;
+  margin-left: 160px;
+  margin-top: 80px;
+}
+
+.book-btn a{
+  display: block;
+  text-align: center;
+  width: 200px;
+  margin: 30px 0 100px 160px;
+  text-transform: capitalize;
+}
 
 
+.message{
+  width: 55%;
+}
+/* /FREE HUBSPOT CRM */
+
+
+/* THREE VERTICAL COLUMNS SECTION */
+.third-part-main{
+  height: 400px;
+  background-color: green;
+}
+
+
+/* /THREE VERTICAL COLUMNS SECTION */
 
 
 

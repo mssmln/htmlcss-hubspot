@@ -49,8 +49,29 @@
   font-size: 150%;
 }
 
+ul{
+  list-style: none;
+  font-size: 150%;
+  color: #32495B;
+}
+li{
+  text-transform: capitalize;
+}
 
 /* /GENERAL RULES */
+
+/* REUSABLE CLASSES */
+.align-left{
+  text-align: left;
+}
+.block{
+  display: block;
+}
+.padding-bottom{
+  padding-bottom: 40px;
+}
+/* /REUSABLE CLASSES */
+
 
 body{
   font-family: 'Roboto', sans-serif;
@@ -324,19 +345,18 @@ main{
 
 .book-btn{
   width: 35%;
+  text-align: center;
 }
 
 .book-btn img{
   width: 200px;
-  margin-left: 160px;
   margin-top: 80px;
 }
 
 .book-btn a{
   display: block;
-  text-align: center;
   width: 200px;
-  margin: 30px 0 100px 160px;
+  margin: 30px auto 100px;
   text-transform: capitalize;
 }
 
@@ -383,9 +403,8 @@ main{
 }
 .message ul li{
   padding-right: 30px;
-  text-transform: capitalize;
 }
-.message ul li i.checkmark{
+ul li i.checkmark{
   margin-right: 15px;
   color: #FE775A;
 }
@@ -394,15 +413,255 @@ main{
 
 /* THREE VERTICAL COLUMNS SECTION */
 .third-part-main{
-  height: 400px;
-  background-color: green;
+  background-color: #F4F9FD;
 }
 
+.box{
+  width: 30%;
+  background-color: #FFFFFF;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(50, 73, 91, 0.2);
+}
 
+.box img{
+  padding-top: 30px;
+}
+
+.smaller{
+  width: 165px;
+}
+
+.middle-box{
+  margin: 0 5%;
+}
+
+.middle-box img{
+  margin-top: 5px;
+  width: 200px;
+}
+
+.box h3{
+  text-transform: capitalize;
+  font-size: 200%;
+  margin-top: 25px;
+  color: #32495B;
+}
+
+.box h3.lower{
+  margin-top: 10px;
+}
+
+.box p{
+  font-size: 130%;
+  margin-top: 30px;
+  line-height: 30px;
+  padding: 0 30px;
+  color: #32495B;
+}
+
+.box h4{
+  font-size: 160%;
+  text-transform: uppercase;
+  margin-top: 40px;
+  color: #32495B;
+}
+
+.box h4::before{
+  content: '';
+  display: block;
+  width: 70%;
+  height: 2px;
+  margin: 0 0 40px 15%;
+  background-color: #32495B;
+}
+
+.features{
+  margin: 30px 150px 0 0;
+}
+
+.box a{
+  width: 200px;
+  text-transform: capitalize;
+  margin: 50px auto 20px;
+}
 /* /THREE VERTICAL COLUMNS SECTION */
 
 
+/* LEARN AND GROWTH SECTION */
+.data{
+  background-image: linear-gradient(to right, #00A6BB, #00BCA6);
+}
 
+.data .sentences{
+  text-align: center;
+  font-size: 150%;
+  padding-top: 40px;
+  color: #FFFFFF;
+}
+
+.sentences h2{
+  margin-bottom: 30px;
+}
+
+.sentences p{
+  padding-bottom: 60px;
+  line-height: 30px;
+}
+.data .up-row{
+}
+.data .down-row{
+  height: 250px;
+}
+
+.up-row .square{
+  width: 25%;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+}
+.down-row .square{
+  width: 25%;
+  border-right: 1px solid #FFFFFF;
+}
+.square{
+  text-align: center;
+}
+.square:last-child{
+  border-right: 0;
+}
+
+.square img{
+  padding-top: 20px;
+}
+.square h4{
+  font-size: 270%;
+  color: #FFFFFF;
+  padding-top: 10px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.square p{
+  color: #FFFFFF;
+  font-size: 110%;
+  padding-bottom: 30px;
+}
+.square h4::after{
+  content: '+';
+  font-weight: 400;
+  font-size: 80%;
+  margin-left: 5px;
+}
+/* /LEARN AND GROWTH SECTION */
+
+
+
+
+/* CUSTOMERS' LOGO SECTION */
+.customer-logo{
+  height: 500px;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.upper{
+  height: 50%;
+  padding-top: 50px;
+  background-color: #FFFFFF;
+}
+.customer-logo .upper .numbers{
+  width: 40%;
+  background-color: #FFFFFF;
+}
+
+.numbers h3{
+  font-size: 350%;
+  margin-left: 130px;
+  color: #32495B;
+}
+.numbers p{
+  margin-left: 130px;
+  margin-top: 30px;
+  font-size: 130%;
+  line-height: 20px;
+  color: #32495B;
+}
+
+.customer-logo .upper .customers{
+  width: 60%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+.customers #img-sopra{
+  height: 50%;
+  width: 100%;
+}
+
+.customers #img-sotto{
+  width: 100%;
+  height: 50%;
+}
+.customer-logo .upper .customers img{
+  width: 110px;
+  margin-right: 80px;
+}
+
+
+.lower{
+  height: 50%;
+}
+.customer-logo .lower .lower-left{
+  width: 40%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.lower .lower-left h4{
+  font-size: 250%;
+  text-transform: capitalize;
+  color: #32495B;
+}
+
+.lower .lower-left p{
+  margin: 30px 0 70px 0;
+  font-size: 130%;
+  line-height: 20px;
+  color: #32495B;
+}
+
+.lower .lower-left h6{
+  margin-top: 70px;
+  font-size: 110%;
+  color: #32495B;
+}
+
+.customer-logo .lower .lower-right{
+  width: 60%;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+/* /CUSTOMERS' LOGO SECTION */
 
 
 /* /MAIN */
+.footer{
+  /* background-color: #32495B; */
+  background-color: red;
+  height: 300px;
+  width: 100%;
+}
+
+
+
+
+/* FOOTER */
+footerq{
+  background-color: #32495B;
+  height: 300px;
+  width: 100%;
+}
+
+
+
+
+/* /FOOTER */

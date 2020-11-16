@@ -296,15 +296,11 @@ header .third{
 
 
 /* MAIN */
-main{
-  height: 800px;
-  background-color: #dda529;
-}
 
 
 /* AZURE STRIPE */
 .azure-stripe{
-  height: 12.5%;
+  height: 90px;
   width: 100%;
   border-top: 3px solid #32495B;
   border-bottom: 3px solid #32495B;
@@ -596,7 +592,7 @@ ul li i.checkmark{
   margin-left: 130px;
   margin-top: 30px;
   font-size: 130%;
-  line-height: 20px;
+  line-height: 30px;
   color: #32495B;
 }
 
@@ -605,19 +601,23 @@ ul li i.checkmark{
   height: 100%;
   background-color: #FFFFFF;
 }
-.customers #img-sopra{
+.customers .img{
   height: 50%;
   width: 100%;
-}
-
-.customers #img-sotto{
-  width: 100%;
-  height: 50%;
 }
 .customer-logo .upper .customers img{
   width: 110px;
   margin-right: 80px;
+  /* PER CENTRARE LE IMG */
+  vertical-align: middle;
+  /* /PER CENTRARE LE IMG */
 }
+/* PER CENTRARE LE IMG */
+.customers .clearfix > div{
+  height: 100px;
+  line-height: 100px;
+}
+/* /PER CENTRARE LE IMG */
 
 
 .customer-logo .lower{

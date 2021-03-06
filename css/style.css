@@ -761,8 +761,47 @@ footerq{
   height: 300px;
   width: 100%;
 }
-
-
-
-
 /* /FOOTER */
+
+
+/* WEBSITE'S CHAT */
+.chat{
+  height: 90px;
+  width: 30%;
+  background-color: #FFFFFF;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+.robot-face{
+  height: 30px;
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+
+.robot-face img{
+  width: 50px;
+}
+
+.contenitore-testo-della-chat{
+  height: 30px;
+  width: 100%;
+  background-color: green;
+}
+
+.testo-della-chat{
+
+}
+
+.testo-della-chat::before{
+  content: '👋';
+}
+
+.chiusura-chat{
+  height: 30px;
+  width: 100%;
+  background-color: pink;
+}
+/* /WEBSITE'S CHAT */
